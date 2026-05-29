@@ -15,6 +15,9 @@ kotlinxSerializationJsonVersion = "1.11.0"
 materialIcons = "1.7.8"
 
 adaptiveLayoutVersion = "1.2.0"
+material3WindowSizeClassAndroid = "1.4.0"
+material3AdaptiveNavigationSuite = "1.4.0"
+adaptiveNavigation = "1.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -46,7 +49,9 @@ androidx-compose-material-icons = { group = "androidx.compose.material", name = 
 
 compose-adaptive = { group = "androidx.compose.material3.adaptive", name = "adaptive", version.ref = "adaptiveLayoutVersion" }
 compose-adaptive-layout = { group = "androidx.compose.material3.adaptive", name = "adaptive-layout", version.ref = "adaptiveLayoutVersion" }
-compose-adaptive-navigation = { group = "androidx.compose.material3.adaptive", name = "adaptive-layout-navigation", version.ref = "adaptiveLayoutVersion" }
+androidx-compose-material3-window-size-android = { group = "androidx.compose.material3", name = "material3-window-size-class-android", version.ref = "material3WindowSizeClassAndroid" }
+androidx-compose-material3-adaptive-navigation-suite = { group = "androidx.compose.material3", name = "material3-adaptive-navigation-suite", version.ref = "material3AdaptiveNavigationSuite" }
+androidx-compose-adaptive-navigation = { group = "androidx.compose.material3.adaptive", name = "adaptive-navigation", version.ref = "adaptiveNavigation" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
